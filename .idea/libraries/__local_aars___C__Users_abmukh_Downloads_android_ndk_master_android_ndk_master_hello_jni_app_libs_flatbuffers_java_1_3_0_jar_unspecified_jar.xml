@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_aars__:C.\Users\abmukh\Downloads\android-ndk-master\android-ndk-master\hello-jni\app\libs\flatbuffers-java-1.3.0.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/flatbuffers-java-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

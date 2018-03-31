@@ -1,0 +1,5 @@
+# ninja log v5
+1	1185	0	CMakeFiles/hello-jni.dir/hello-jni.cpp.o	daa2c74004b00977
+1189	1511	0	C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/build/intermediates/cmake/arm7/debug/obj/armeabi-v7a/libhello-jni.so	cdded1233d5946e6
+3	1361	0	CMakeFiles/hello-jni.dir/hello-jni.cpp.o	daa2c74004b00977
+1361	1810	0	C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/build/intermediates/cmake/arm7/debug/obj/armeabi-v7a/libhello-jni.so	cdded1233d5946e6

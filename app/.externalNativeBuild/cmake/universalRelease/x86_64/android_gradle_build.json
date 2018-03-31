@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"D:\\MONugetCache\\androidsdk.26.0.2\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\abmukh\\Downloads\\android-ndk-master\\android-ndk-master\\hello-jni\\app\\.externalNativeBuild\\cmake\\universalRelease\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-jni-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "hello-jni",
+			"buildCommand" : "D:\\MONugetCache\\androidsdk.26.0.2\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\abmukh\\Downloads\\android-ndk-master\\android-ndk-master\\hello-jni\\app\\.externalNativeBuild\\cmake\\universalRelease\\x86_64 --target hello-jni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-x86_64  -Dhello_jni_EXPORTS -IC:\\Users\\abmukh\\Downloads\\android-ndk-master\\android-ndk-master\\hello-jni\\app\\src\\main\\cpp\\. -IC:\\Users\\abmukh\\Downloads\\android-ndk-master\\android-ndk-master\\hello-jni\\app\\src\\main\\cpp\\flatbuffers -isystem D:\\MONugetCache\\androidsdk.26.0.2\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\MONugetCache\\androidsdk.26.0.2\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem D:\\MONugetCache\\androidsdk.26.0.2\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/src/main/cpp/hello-jni.cpp",
+					"workingDirectory" : "C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/.externalNativeBuild/cmake/universalRelease/x86_64"
+				}
+			],
+			"output" : "C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/build/intermediates/cmake/universal/release/obj/x86_64/libhello-jni.so",
+			"toolchain" : "1361084041"
+		}
+	},
+	"toolchains" : 
+	{
+		"1361084041" : 
+		{
+			"cCompilerExecutable" : "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
