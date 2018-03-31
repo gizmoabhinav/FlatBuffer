@@ -16,7 +16,9 @@
  */
 #include <string>
 #include <jni.h>
+#include "unistd.h"
 #include "repos_schema_generated.h"
+#include <cstdio>
 
 /* This is a trivial JNI example where we use a native method
  * to return a new VM String. See the corresponding Java source
@@ -27,9 +29,30 @@
 
 extern "C"
 {
+
 JNIEXPORT jstring JNICALL
-Java_com_example_hellojni_HelloJni_stringFromJNI(JNIEnv *env,
-                                                 jobject thiz) {
+Java_com_example_hellojni_HelloJni_stringFromJNI(JNIEnv *env, jobject thiz) {
+    if( access( "/sdcard/repos_json.bin", F_OK ) != -1 ) {
+        FILE* file = fopen("/sdcard/repos_json.bin", "rb");
+        if(file == NULL) {
+            return env->NewStringUTF(strerror(errno));
+        }
+        int length = ftell(file);
+        fseek(file, 0L, SEEK_SET);
+        char *data = new char[length];
+        fread(data, sizeof(char), length, file);
+        fclose(file);
+        const Repos::ReposList* repoList = Repos::GetReposList(data);
+        flatbuffers::FlatBufferBuilder fbb(1024);
+        auto struct1 = fbb.CreateStruct(repoList->repos());
+        auto fb = Repos::CreateReposList(fbb,struct1.o);
+        fbb.Finish(fb);
+        uint8_t *buf = fbb.GetBufferPointer();
+        int size = fbb.GetSize();
+        return env->NewStringUTF("Hello from JNI found file! ");
+    } else {
+        // file doesn't exist
+    }
     return env->NewStringUTF("Hello from JNI ! ");
 }
 }

@@ -1,19 +1,19 @@
 The target system is: Android - 23 - mips64
 The host system is: Windows - 10.0.16299 - AMD64
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_59735"
-[1/2] Building C object CMakeFiles/cmTC_59735.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_59735
+Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_61d08"
+[1/2] Building C object CMakeFiles/cmTC_61d08.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_61d08
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_84a4b"
-[1/2] Building C object CMakeFiles/cmTC_84a4b.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_84a4b
+Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_255dd"
+[1/2] Building C object CMakeFiles/cmTC_255dd.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_255dd
 Android clang version 3.8.256229  (based on LLVM 3.8.256229)
 Target: mips64el-none-linux-android
 Thread model: posix
@@ -22,16 +22,16 @@ Found candidate GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/t
 Selected GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x
 Candidate multilib: .;
 Selected multilib: .;
- "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 -pie --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_84a4b "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/mips64el-linux-android/../../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_84a4b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtend_android.o"
+ "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 -pie --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_255dd "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/mips64el-linux-android/../../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_255dd.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtend_android.o"
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(mips64el-linux-android-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_84a4b"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_84a4b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_84a4b]
+  ignore line: [Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_255dd"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_255dd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_255dd]
   ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
   ignore line: [Target: mips64el-none-linux-android]
   ignore line: [Thread model: posix]
@@ -42,7 +42,7 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: .]
   ignore line: []
-  link line: [ "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 -pie --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_84a4b "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/mips64el-linux-android/../../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_84a4b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtend_android.o"]
+  link line: [ "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 -pie --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_255dd "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/mips64el-linux-android/../../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_255dd.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtend_android.o"]
     arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\ld] ==> ignore
     arg [--sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64] ==> ignore
     arg [-pie] ==> ignore
@@ -53,7 +53,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_84a4b] ==> ignore
+    arg [cmTC_255dd] ==> ignore
     arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\crtbegin_dynamic.o] ==> ignore
     arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
     arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64]
@@ -78,7 +78,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_84a4b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_255dd.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -98,19 +98,19 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_2be90"
-[1/2] Building CXX object CMakeFiles/cmTC_2be90.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_2be90
+Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_99e96"
+[1/2] Building CXX object CMakeFiles/cmTC_99e96.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_99e96
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_65b24"
-[1/2] Building CXX object CMakeFiles/cmTC_65b24.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_65b24
+Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_f38c4"
+[1/2] Building CXX object CMakeFiles/cmTC_f38c4.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_f38c4
 Android clang version 3.8.256229  (based on LLVM 3.8.256229)
 Target: mips64el-none-linux-android
 Thread model: posix
@@ -119,16 +119,16 @@ Found candidate GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/t
 Selected GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x
 Candidate multilib: .;
 Selected multilib: .;
- "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 -pie --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_65b24 "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/mips64el-linux-android/../../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_65b24.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtend_android.o"
+ "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 -pie --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_f38c4 "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/mips64el-linux-android/../../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_f38c4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtend_android.o"
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(mips64el-linux-android-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/abmukh/Downloads/android-ndk-master/android-ndk-master/hello-jni/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalRelease/mips64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_65b24"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_65b24.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_65b24]
+  ignore line: [Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_f38c4"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_f38c4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_f38c4]
   ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
   ignore line: [Target: mips64el-none-linux-android]
   ignore line: [Thread model: posix]
@@ -139,7 +139,7 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: .]
   ignore line: []
-  link line: [ "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 -pie --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_65b24 "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/mips64el-linux-android/../../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_65b24.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtend_android.o"]
+  link line: [ "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 -pie --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64 --eh-frame-hdr -m elf64ltsmip -dynamic-linker /system/bin/linker64 -o cmTC_f38c4 "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/mips64el-linux-android/../../lib64 -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_f38c4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\\crtend_android.o"]
     arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\ld] ==> ignore
     arg [--sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64] ==> ignore
     arg [-pie] ==> ignore
@@ -150,7 +150,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_65b24] ==> ignore
+    arg [cmTC_f38c4] ==> ignore
     arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-mips64/usr/lib/../lib64\crtbegin_dynamic.o] ==> ignore
     arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
     arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib64]
@@ -175,7 +175,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_65b24.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f38c4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]

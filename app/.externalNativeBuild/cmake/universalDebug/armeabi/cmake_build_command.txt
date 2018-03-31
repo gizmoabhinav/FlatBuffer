@@ -1,10 +1,10 @@
 Executable : D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\cmake.exe
 arguments : 
--HC:\Users\abmukh\Downloads\android-ndk-master\android-ndk-master\hello-jni\app\src\main\cpp
--BC:\Users\abmukh\Downloads\android-ndk-master\android-ndk-master\hello-jni\app\.externalNativeBuild\cmake\universalDebug\armeabi
+-HC:\Users\abmukh\Desktop\flatbuffer\Flatbuffer\app\src\main\cpp
+-BC:\Users\abmukh\Desktop\flatbuffer\Flatbuffer\app\.externalNativeBuild\cmake\universalDebug\armeabi
 -DANDROID_ABI=armeabi
 -DANDROID_PLATFORM=android-23
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\abmukh\Downloads\android-ndk-master\android-ndk-master\hello-jni\app\build\intermediates\cmake\universal\debug\obj\armeabi
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\abmukh\Desktop\flatbuffer\Flatbuffer\app\build\intermediates\cmake\universal\debug\obj\armeabi
 -DCMAKE_BUILD_TYPE=Debug
 -DANDROID_NDK=D:\MONugetCache\androidsdk.26.0.2\ndk-bundle
 -DCMAKE_TOOLCHAIN_FILE=D:\MONugetCache\androidsdk.26.0.2\ndk-bundle\build\cmake\android.toolchain.cmake
