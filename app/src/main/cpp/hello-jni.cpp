@@ -30,12 +30,16 @@
 extern "C"
 {
 
-JNIEXPORT jint JNICALL
-Java_com_example_hellojni_HelloJni_stringFromJNI(JNIEnv *env, jobject thiz) {
+static const Repos::ReposList *repoList;
+static std::string jsonData;
+static int size;
+
+JNIEXPORT void JNICALL
+Java_com_example_hellojni_HelloJni_load(JNIEnv *env, jobject thiz) {
     if (access("/sdcard/repos_json.bin", F_OK) != -1) {
         FILE *file = fopen("/sdcard/repos_json.bin", "rb");
         if (file == NULL) {
-            return 222;
+            return;
         }
         fseek(file, 0L, SEEK_END);
         int length = ftell(file);
@@ -43,44 +47,49 @@ Java_com_example_hellojni_HelloJni_stringFromJNI(JNIEnv *env, jobject thiz) {
         char *data = new char[length];
         fread(data, sizeof(char), length, file);
         fclose(file);
-        const Repos::ReposList *repoList = Repos::GetReposList(data);
-        flatbuffers::FlatBufferBuilder fbb(1024);
-        auto struct1 = fbb.CreateStruct(repoList->repos());
-        auto fb = Repos::CreateReposList(fbb, struct1.o);
-        fbb.Finish(fb);
-        uint8_t *buf = fbb.GetBufferPointer();
-        int size = fbb.GetSize();
-        jbyteArray ret = env->NewByteArray(size);
-        env->SetByteArrayRegion(ret, 0, 6, (const jbyte *) buf);
-        return length;
+        size = length;
+        repoList = Repos::GetReposList(data);
     } else {
-        // file doesn't exist
+        size = 0;
     }
-    return 222;
+    if (access("/sdcard/repos_json.json", F_OK) != -1) {
+        FILE *file = fopen("/sdcard/repos_json.json", "rb");
+        if (file == NULL) {
+            return;
+        }
+        fseek(file, 0L, SEEK_END);
+        int length = ftell(file);
+        fseek(file, 0L, SEEK_SET);
+        char *data = new char[length];
+        fread(data, sizeof(char), length, file);
+        fclose(file);
+        size = length;
+        jsonData = data;
+    } else {
+        size = 0;
+    }
 }
 
 
 JNIEXPORT jbyteArray JNICALL
 Java_com_example_hellojni_HelloJni_fbFromJNI(JNIEnv *env, jobject thiz) {
-    if (access("/sdcard/repos_json.bin", F_OK) != -1) {
-        FILE *file = fopen("/sdcard/repos_json.bin", "rb");
-        if (file == NULL) {
-            return NULL;
-        }
-        fseek(file, 0L, SEEK_END);
-        int length = ftell(file);
-        fseek(file, 0L, SEEK_SET);
-        char *data = new char[length];
-        fread(data, sizeof(char), length, file);
-        fclose(file);
-        const Repos::ReposList *repoList = Repos::GetReposList(data);
+    if (size > 0) {
         auto fb = flatbuffers::GetBufferStartFromRootPointer(repoList);
-        jbyteArray ret = env->NewByteArray(length);
-        env->SetByteArrayRegion(ret, 0, length, (const jbyte *) fb);
+        jbyteArray ret = env->NewByteArray(size);
+        env->SetByteArrayRegion(ret, 0, size, (const jbyte *) fb);
         return ret;
     } else {
-        // file doesn't exist
+        return NULL;
     }
-    return NULL;
+}
+
+
+JNIEXPORT jstring JNICALL
+Java_com_example_hellojni_HelloJni_jaFromJNI(JNIEnv *env, jobject thiz) {
+    if (size > 0) {
+        return env->NewStringUTF(jsonData.c_str());
+    } else {
+        return NULL;
+    }
 }
 }

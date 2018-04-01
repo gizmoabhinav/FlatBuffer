@@ -20,7 +20,6 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.hellojni.Repos.ReposList;
-import com.google.flatbuffers.FlatBufferBuilder;
 
 import java.nio.ByteBuffer;
 
@@ -29,41 +28,26 @@ public class HelloJni extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /* Retrieve our TextView and set its content.
-         * the text is retrieved by calling a native
-         * function.
-         */
         setContentView(R.layout.activity_hello_jni);
         TextView tv = (TextView)findViewById(R.id.hello_textview);
+        TextView tv2 = (TextView)findViewById(R.id.hello_textview2);
+        load();
+        long start = System.currentTimeMillis();
         byte[] bytearray = fbFromJNI();
         ByteBuffer bb = ByteBuffer.wrap(bytearray);
         ReposList reposList = ReposList.getRootAsReposList(bb);
-        tv.setText( reposList.repos(0).cloneUrl() );
+        long end = System.currentTimeMillis();
+        tv.setText( "time taken with flatbuffer : "+(end-start)+" ms");
+        start = System.currentTimeMillis();
+        String jsonData = jaFromJNI();
+        com.example.hellojni.ReposNormal.ReposList reposList1 = new com.example.hellojni.ReposNormal.ReposList().fromJson(jsonData);
+        end = System.currentTimeMillis();
+        tv2.setText( "time taken with json : "+(end-start)+" ms");
     }
-    /* A native method that is implemented by the
-     * 'hello-jni' native library, which is packaged
-     * with this application.
-     */
-    public native int  stringFromJNI();
-    public native byte[]  fbFromJNI();
+    public native void load();
+    public native byte[] fbFromJNI();
+    public native String jaFromJNI();
 
-    /* This is another native method declaration that is *not*
-     * implemented by 'hello-jni'. This is simply to show that
-     * you can declare as many native methods in your Java code
-     * as you want, their implementation is searched in the
-     * currently loaded native libraries only the first time
-     * you call them.
-     *
-     * Trying to call this function will result in a
-     * java.lang.UnsatisfiedLinkError exception !
-     */
-    public native String  unimplementedStringFromJNI();
-
-    /* this is used to load the 'hello-jni' library on application
-     * startup. The library has already been unpacked into
-     * /data/data/com.example.hellojni/lib/libhello-jni.so at
-     * installation time by the package manager.
-     */
     static {
         System.loadLibrary("hello-jni");
     }
