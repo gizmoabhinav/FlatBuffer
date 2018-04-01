@@ -19,6 +19,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.hellojni.Repos.ReposList;
+import com.google.flatbuffers.FlatBufferBuilder;
+
+import java.nio.ByteBuffer;
+
 public class HelloJni extends AppCompatActivity {
 
     @Override
@@ -30,13 +35,17 @@ public class HelloJni extends AppCompatActivity {
          */
         setContentView(R.layout.activity_hello_jni);
         TextView tv = (TextView)findViewById(R.id.hello_textview);
-        tv.setText( stringFromJNI() );
+        byte[] bytearray = fbFromJNI();
+        ByteBuffer bb = ByteBuffer.wrap(bytearray);
+        ReposList reposList = ReposList.getRootAsReposList(bb);
+        tv.setText( reposList.repos(0).cloneUrl() );
     }
     /* A native method that is implemented by the
      * 'hello-jni' native library, which is packaged
      * with this application.
      */
-    public native String  stringFromJNI();
+    public native int  stringFromJNI();
+    public native byte[]  fbFromJNI();
 
     /* This is another native method declaration that is *not*
      * implemented by 'hello-jni'. This is simply to show that

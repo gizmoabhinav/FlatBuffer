@@ -1,50 +1,50 @@
 The target system is: Android - 23 - armv5te
 The host system is: Windows - 10.0.16299 - AMD64
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/abmukh/Desktop/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_054e9"
-[1/2] Building C object CMakeFiles/cmTC_054e9.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_054e9
+Run Build Command:"C:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_7f75a"
+[1/2] Building C object CMakeFiles/cmTC_7f75a.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_7f75a
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/abmukh/Desktop/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_7b14b"
-[1/2] Building C object CMakeFiles/cmTC_7b14b.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_7b14b
+Run Build Command:"C:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_d1206"
+[1/2] Building C object CMakeFiles/cmTC_d1206.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_d1206
 Android clang version 3.8.256229  (based on LLVM 3.8.256229)
 Target: armv5te-none-linux-android
 Thread model: posix
-InstalledDir: D:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
-Found candidate GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
-Selected GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+InstalledDir: C:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_7b14b "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7b14b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtend_android.o"
+ "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_d1206 "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_d1206.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtend_android.o"
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/abmukh/Desktop/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_7b14b"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_7b14b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_7b14b]
+  ignore line: [Run Build Command:"C:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_d1206"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_d1206.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_d1206]
   ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
   ignore line: [Target: armv5te-none-linux-android]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: D:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
-  ignore line: [Found candidate GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
-  ignore line: [Selected GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [InstalledDir: C:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Candidate multilib: .]
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_7b14b "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7b14b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtend_android.o"]
-    arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld] ==> ignore
-    arg [--sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm] ==> ignore
+  link line: [ "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_d1206 "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_d1206.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld] ==> ignore
+    arg [--sysroot=C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm] ==> ignore
     arg [-pie] ==> ignore
     arg [-X] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -53,14 +53,14 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7b14b] ==> ignore
-    arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\crtbegin_dynamic.o] ==> ignore
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+    arg [cmTC_d1206] ==> ignore
+    arg [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
     arg [--build-id] ==> ignore
     arg [--warn-shared-textrel] ==> ignore
     arg [--fatal-warnings] ==> ignore
@@ -79,71 +79,71 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_7b14b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d1206.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\crtend_android.o] ==> ignore
+    arg [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
   implicit libs: [dl;c;dl]
-  implicit dirs: [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib;D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+  implicit dirs: [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib;C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
   implicit fwks: []
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/abmukh/Desktop/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_c9b2d"
-[1/2] Building CXX object CMakeFiles/cmTC_c9b2d.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_c9b2d
+Run Build Command:"C:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_084dc"
+[1/2] Building CXX object CMakeFiles/cmTC_084dc.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_084dc
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/abmukh/Desktop/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_3ac12"
-[1/2] Building CXX object CMakeFiles/cmTC_3ac12.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_3ac12
+Run Build Command:"C:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_f9f1c"
+[1/2] Building CXX object CMakeFiles/cmTC_f9f1c.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_f9f1c
 Android clang version 3.8.256229  (based on LLVM 3.8.256229)
 Target: armv5te-none-linux-android
 Thread model: posix
-InstalledDir: D:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
-Found candidate GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
-Selected GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+InstalledDir: C:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_3ac12 "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_3ac12.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtend_android.o"
+ "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_f9f1c "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_f9f1c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtend_android.o"
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/abmukh/Desktop/flatbuffer/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/abmukh/Desktop/Flatbuffer/app/.externalNativeBuild/cmake/universalDebug/armeabi/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_3ac12"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_3ac12.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_3ac12]
+  ignore line: [Run Build Command:"C:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe" "cmTC_f9f1c"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_f9f1c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_f9f1c]
   ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
   ignore line: [Target: armv5te-none-linux-android]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: D:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
-  ignore line: [Found candidate GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
-  ignore line: [Selected GCC installation: D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [InstalledDir: C:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Candidate multilib: .]
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_3ac12 "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_3ac12.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtend_android.o"]
-    arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld] ==> ignore
-    arg [--sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm] ==> ignore
+  link line: [ "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_f9f1c "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_f9f1c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld] ==> ignore
+    arg [--sysroot=C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm] ==> ignore
     arg [-pie] ==> ignore
     arg [-X] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -152,14 +152,14 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3ac12] ==> ignore
-    arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\crtbegin_dynamic.o] ==> ignore
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
-    arg [-LD:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+    arg [cmTC_f9f1c] ==> ignore
+    arg [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-LC:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
     arg [--build-id] ==> ignore
     arg [--warn-shared-textrel] ==> ignore
     arg [--fatal-warnings] ==> ignore
@@ -178,7 +178,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_3ac12.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f9f1c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -188,19 +188,19 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\crtend_android.o] ==> ignore
+    arg [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib\crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
-  collapse library dir [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/../lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
   implicit libs: [stdc++;m;dl;c;dl]
-  implicit dirs: [D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib;D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
+  implicit dirs: [C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib;C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
   implicit fwks: []
 
 

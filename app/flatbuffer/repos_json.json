@@ -1,5 +1,4 @@
-{
-  "repos": [
+"repos": [
     {
       "id": 27149168,
       "name": "acai",
@@ -7666,4 +7665,3 @@
       "default_branch": "master"
     }
   ]
-}

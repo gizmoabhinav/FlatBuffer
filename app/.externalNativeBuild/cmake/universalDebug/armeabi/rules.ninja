@@ -17,7 +17,7 @@
 rule CXX_COMPILER__hello-jni
   depfile = $DEP_FILE
   deps = gcc
-  command = D:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  -target armv5te-none-linux-androideabi -gcc-toolchain D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
+  command = C:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  -target armv5te-none-linux-androideabi -gcc-toolchain C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
   description = Building CXX object $out
 
 
@@ -25,7 +25,7 @@ rule CXX_COMPILER__hello-jni
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__hello-jni
-  command = cmd.exe /C "$PRE_LINK && D:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  -target armv5te-none-linux-androideabi -gcc-toolchain D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\MONugetCache\androidsdk.26.0.2\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  -target armv5te-none-linux-androideabi -gcc-toolchain C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/MONugetCache/androidsdk.26.0.2/ndk-bundle/platforms/android-23/arch-arm -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\cmake.exe -HC:\Users\abmukh\Desktop\flatbuffer\Flatbuffer\app\src\main\cpp -BC:\Users\abmukh\Desktop\flatbuffer\Flatbuffer\app\.externalNativeBuild\cmake\universalDebug\armeabi
+  command = C:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\cmake.exe -HC:\Users\abmukh\Desktop\Flatbuffer\app\src\main\cpp -BC:\Users\abmukh\Desktop\Flatbuffer\app\.externalNativeBuild\cmake\universalDebug\armeabi
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe -t clean
+  command = C:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe -t clean
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = D:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe -t targets
+  command = C:\MONugetCache\androidsdk.26.0.2\cmake\3.6.3155560\bin\ninja.exe -t targets
   description = All primary targets available:
 
